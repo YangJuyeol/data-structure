@@ -2,7 +2,22 @@
 #include <cstdlib> //표준 라이브러리 헤더파일
 #include <ctime> // time과 관련된 헤더파일
 
-int main()
+int sum_of_N(int n)
+{
+	int sum = 0;
+	for (int i = 0; i < n + 1; i++) {
+		sum = sum + 1;
+	}
+	return sum;
+}
+
+int sum_of_N2(int n)
+{
+	return(n * (n + 1))/ 2;
+}
+
+
+int main(void)
 {
 	clock_t start, finish; //시작시각, 끝나는 시각
 	double duration; // 걸린 시간
