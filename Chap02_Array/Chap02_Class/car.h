@@ -6,14 +6,14 @@ class Car {
 private:		//현재 class 내부에서만 접근 가능
 
 
-protected:		//자식 class에서 접근 가능
+protected:		//현재 class와  자식 class에서 접근 가능
 	int speed;			//속력
 	char name[40];		// 이름
-public:
+public:		//외부 접근 가능
 	int gear;
 	Car() : speed(0), gear(0), name("") {}
 	~Car() {}
-	Car( int s, char* n, int g)
+	Car( int s, const char* n, int g)
 		: speed(s), gear(g) {
 		strcpy_s(name, n);			// n 을 문자열 name에 copy
 	}

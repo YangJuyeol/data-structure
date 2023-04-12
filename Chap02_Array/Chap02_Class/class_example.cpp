@@ -4,7 +4,7 @@
 int main()
 {
 	Car	yourCar;
-	// Car myCar(100, "my car", 4);
+	 Car yourCar(100, "my car", 4);
 	yourCar.display();
 	yourCar.whereAmI();
 	yourCar.gear = 5;
@@ -13,12 +13,12 @@ int main()
 	yourCar.display();
 	
 
-	SportsCar myCar;
-	myCar.setTurbo(true);
-	myCar.speedUp();
-	myCar.display();
-	myCar.whereAmI();
-	myCar.
+	SportsCar yourCar;
+	yourCar.setTurbo(true);
+	yourCar.speedUp();
+	yourCar.display();
+	yourCar.whereAmI();
+	yourCar.
 
-	return  0;
+	return 0;
 }

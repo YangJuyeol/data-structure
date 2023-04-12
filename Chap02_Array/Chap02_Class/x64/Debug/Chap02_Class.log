@@ -1,2 +1,8 @@
 ﻿  class_example.cpp
-  Chap02_Class.vcxproj -> C:\Users\전자공학부\Desktop\data-structure\Chap02_Array\x64\Debug\Chap02_Class.exe
+C:\Users\전자공학부\Desktop\data-structure\Chap02_Array\Chap02_Class\class_example.cpp(7,7): error C2374: 'yourCar': 재정의. 여러 번 초기화했습니다.
+C:\Users\전자공학부\Desktop\data-structure\Chap02_Array\Chap02_Class\class_example.cpp(6): message : 'yourCar' 선언을 참조하십시오.
+C:\Users\전자공학부\Desktop\data-structure\Chap02_Array\Chap02_Class\class_example.cpp(16,12): error C2371: 'yourCar': 재정의. 기본 형식이 다릅니다.
+C:\Users\전자공학부\Desktop\data-structure\Chap02_Array\Chap02_Class\class_example.cpp(6): message : 'yourCar' 선언을 참조하십시오.
+C:\Users\전자공학부\Desktop\data-structure\Chap02_Array\Chap02_Class\class_example.cpp(17,10): error C2039: 'setTurbo': 'Car'의 멤버가 아닙니다.
+C:\Users\전자공학부\Desktop\data-structure\Chap02_Array\Chap02_Class\car.h(5): message : 'Car' 선언을 참조하십시오.
+C:\Users\전자공학부\Desktop\data-structure\Chap02_Array\Chap02_Class\class_example.cpp(23,2): error C2059: 구문 오류: 'return'
